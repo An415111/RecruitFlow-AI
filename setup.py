@@ -1,0 +1,37 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="recruitflow-ai",
+    version="1.0.0",
+    description="AI-Powered Recruiter Outreach and Resume Optimization System",
+    author="Your Name",
+    author_email="your.email@example.com",
+    url="https://github.com/An415111/RecruitFlow-AI",
+    packages=find_packages(),
+    python_requires=">=3.9",
+    install_requires=[
+        "fastapi==0.104.1",
+        "uvicorn==0.24.0",
+        "sqlalchemy==2.0.23",
+        "python-dotenv==1.0.0",
+        "groq==0.4.2",
+        "playwright==1.40.0",
+        "python-docx==0.8.11",
+        "docx2pdf==0.1.8",
+        "aiofiles==23.2.1",
+        "pydantic==2.5.0",
+        "pydantic-settings==2.1.0",
+        "email-validator==2.1.0",
+        "requests==2.31.0",
+        "beautifulsoup4==4.12.2",
+    ],
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+    ],
+)
